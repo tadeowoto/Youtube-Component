@@ -166,6 +166,10 @@ body{
     font-family: var(--primary-font);
 }
 
+.minute-highlight{
+    color: var(--answer-color);
+}
+
 
 
 .menu-container{
