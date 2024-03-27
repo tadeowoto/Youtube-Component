@@ -62,11 +62,13 @@ body{
 .user-name{
     color: var(--title-color);
     font-size: 16px;
+    font-family: var(--primary-font);
 }
 
 .comment-age{
     color:var(--secondary-text-color);
     font-size: 14px;
+    font-family: var(--secondary-font);
 }
 .main-comment{
     margin: 4px 0 4px 0;
@@ -75,6 +77,7 @@ body{
 .comment{
     color: var(--title-color);
     font-size: 18px;
+    font-family: var(--primary-font);
 }
 
 .comment-stats{
@@ -82,7 +85,6 @@ body{
     width: 50%;
     display: flex;
     justify-content: space-between;
-    color: white;
 }
 
 .comment-numbers{
@@ -97,13 +99,15 @@ body{
 }
 
 .comment-likes{
-    margin: 0 20px 0 12px;
     color: var(--secondary-text-color);
+    font-family: var(--secondary-font);
+    margin: 0 20px 0 12px;
 }
 
 .reply{
     color: var(--secondary-text-color);
     font-size: 14px;
+    font-family: var(--secondary-font);
 }
 
 
