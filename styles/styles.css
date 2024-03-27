@@ -7,6 +7,7 @@
     --main-bg: #0F0F0F;
     --title-color: white;
     --secondary-text-color:#E2E2E2;
+    --answer-color:#3EA6FF;
 }
 
 body{
@@ -14,7 +15,7 @@ body{
     height: 100vh;
     background-color: var(--main-bg);
     display: flex;
-    align-items: center;
+    align-items: start;
     justify-content: center;
 }
 
@@ -24,11 +25,14 @@ body{
     width: 700px;
     height: 300px;
     display: flex;
+    align-items: start;
     flex-direction: column;
 }
 
 .main-component-container{
+    margin-top: 80px;
     height: 70px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,7 +50,9 @@ body{
     align-items: center;
 }
 .user-img-contaier img{
-    width: 40px;
+    width: 50px;
+    border-radius: 30px;
+    margin-right: 16px;
 }
 
 .user-stats{
@@ -54,8 +60,9 @@ body{
 }
 
 .comment-main-info{
-    width: 30%;
+    width: 40%;
     display: flex;
+    align-items: center;
     justify-content: space-between;
 }
 
@@ -70,6 +77,13 @@ body{
     font-size: 14px;
     font-family: var(--secondary-font);
 }
+
+.comment-main-info img{
+    width: 20px;
+    
+}
+
+
 .main-comment{
     margin: 4px 0 4px 0;
 }
@@ -134,23 +148,23 @@ body{
     left: 18px;
 }
 
+.see-answer{
+    width: 40%;
+    margin: 30px 0 0 90px;
+    display: flex;
+    align-items: center;
+}
 
+.see-answer img{
+    width: 22px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.answer{
+    margin-left: 14px;
+    font-size: 14px;
+    color: var(--answer-color);
+    font-family: var(--primary-font);
+}
 
 
 
